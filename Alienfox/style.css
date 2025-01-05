@@ -1,0 +1,108 @@
+
+
+/* carousel styles */
+
+.carousel-item .carousel-content {
+  padding: 50px;
+  margin-top:50px;
+}
+
+.carousel-item .carousel-content h3 {
+  font-size: 40px;
+  padding-top: 60px;
+  padding-left: 40px;
+ /* align-items: center; */
+}
+
+.carousel-item .carousel-content p {
+  font-size: 2rem;
+ font-weight: bold;
+ padding-left: 40px;
+}
+
+/* Set equal height for carousel items to align both the image and content */
+.carousel-item {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+ 
+}
+
+.carousel-item .carousel-image, .carousel-item .carousel-content {
+  width: 50%;
+}
+
+/* product */
+.product .card {
+  transition: transform 0.3s ease;
+}
+
+.product .card:hover {
+  transform: translateY(-10px); /* Adjust as needed */
+  box-shadow: 0px 5px 15px rgb(99, 98, 98); /* Optional: Add shadow */
+  border-radius:20px;
+  box-shadow: large;
+}
+  .product h5:hover {
+      color:rgb(255,193,7,1);
+  }
+/* partner */
+.partner{
+  transition: transform 0.3s ease;
+}
+  .partner:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    box-shadow: 0px 5px 15px rgb(99, 98, 98); /* Optional: Add shadow */
+    border-radius:20px;
+    box-shadow: large;
+  }
+
+  /* responsive */
+@media (min-width:375px) and (max-width:768px){
+  .sale{
+    margin-bottom: 20px !important;
+    margin-left: 30px;
+  }
+  .sale1{
+    margin-bottom: 20px !important;
+    margin-left: 30px;
+  }
+  .topproduct{
+    margin-left: 100px;
+  }
+  .topproduct h6{
+    margin-left: 100px;
+  }
+  .product{
+    margin:30px !important;
+  }
+}
+@media (min-width:537px) {
+  .form-serach {       
+      left: 20% !important;         
+  }
+}
+@media (min-width:375px) and (max-width:485px) {
+  .form-serach input{
+      width:100%;
+  }
+  .form-serach button{
+      margin-inline: -5px !important;
+  }
+  .form-serach img{
+      width:10px;
+      height:10px ;
+  }
+}
+@media (min-width:991px) {
+  .form-serach input{
+      max-width:100%;
+  }
+  .form-serach button{
+      margin-left: -15px !important;
+  }
+  .form-serach img{
+      width:15px;
+      height:15px ;
+  }
+}
